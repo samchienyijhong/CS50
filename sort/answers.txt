@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Proccessing time for the bese case is fastest. Ω(S1) < S2 Ω(S2) < S2 Ω(S3)
+
+sort2 uses: Merge Sort
+
+How do you know?: No difference among the cases. Θ(S2) < Θ(S3)
+
+sort3 uses: Slection Sort
+
+How do you know?: No difference among the cases. Θ(S2) < Θ(S3)

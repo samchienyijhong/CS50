@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="static/script.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="static/styles.css" rel="stylesheet">
+    <title>Demo Web Page</title>
+    <link rel="icon" type="image/x-icon" href="static/img/favicon.ico">
+</head>
+
+<body>
+
+    <!-- Navibar -->
+    <nav class="navbar navbar-expand-lg py-3 sticky-top navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img class="logo" src="static/img/logo-black.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <button class="btn btn-primary ms-lg-3">Join Us</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="hero vh-100 d-flex align-items-center" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 mx-auto text-center">
+                    <h1 class="display-4 text-white">Build a robust home page</h1>
+                    <p class="text-white my-3">Lorem ipsum dolor sit amet. Est deleniti animi qui voluptatibus dolores
+                        aut asperiores eius et
+                        quidem optio et quia unde qui pariatur voluptatum ut accusamus vero. Ut harum labore est quia
+                        voluptatem nam nihil recusandae eos numquam itaque qui quis voluptatem.</p>
+                        <div class="d-flex justify-content-center">
+                    <i class='bx bx-chevron-right mt-2'></i>
+                    <a href="#" class="btn me-2 btn-primary">Get Started</a>
+                    <a href="#" class="btn btn-outline-light">My Portfolio</a>
+                    <i class='bx bx-chevron-left mt-2'></i>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <section id="services">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-8 mx-auto text-center">
+                    <h6 class="text-primary">SERVICES</h6>
+                    <h1>Our Services</h1>
+                    <p>Vel accusantium quis qui dolores exercitationem et quis ipsam sit quos autem qui blanditiis
+                        nisi
+                        ut perspiciatis officia ut repudiandae dolor. Nam harum enim et ipsam quas ad ducimus
+                        dolorem ut
+                        eius quos et ullam aliquid vel nostrum architecto.</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service card-effect">
+                        <div class="iconbox">
+                            <i class='bx bxs-comment-detail'></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">Web Design</h5>
+                        <p>Sed consectetur nobis ex soluta asperiores aut maxime magnam. Ut voluptatem maxime aut
+                            odit
+                            recusandae At dolores tempore ea sint quas quo rerum reprehenderit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service card-effect">
+                        <div class="iconbox">
+                            <i class='bx bxs-doughnut-chart'></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">SEO</h5>
+                        <p>Sed consectetur nobis ex soluta asperiores aut maxime magnam. Ut voluptatem maxime aut
+                            odit
+                            recusandae At dolores tempore ea sint quas quo rerum reprehenderit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service card-effect">
+                        <div class="iconbox">
+                            <i class='bx bxs-rocket'></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">UX Design</h5>
+                        <p>Sed consectetur nobis ex soluta asperiores aut maxime magnam. Ut voluptatem maxime aut
+                            odit
+                            recusandae At dolores tempore ea sint quas quo rerum reprehenderit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service card-effect">
+                        <div class="iconbox">
+                            <i class='bx bxs-heart'></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">UI Design</h5>
+                        <p>Sed consectetur nobis ex soluta asperiores aut maxime magnam. Ut voluptatem maxime aut
+                            odit
+                            recusandae At dolores tempore ea sint quas quo rerum reprehenderit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service card-effect">
+                        <div class="iconbox">
+                            <i class='bx bxs-cog'></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">Programming</h5>
+                        <p>Sed consectetur nobis ex soluta asperiores aut maxime magnam. Ut voluptatem maxime aut
+                            odit
+                            recusandae At dolores tempore ea sint quas quo rerum reprehenderit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service card-effect">
+                        <div class="iconbox">
+                            <i class='bx bxs-check-shield'></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">Cloud Management</h5>
+                        <p>Sed consectetur nobis ex soluta asperiores aut maxime magnam. Ut voluptatem maxime aut
+                            odit
+                            recusandae At dolores tempore ea sint quas quo rerum reprehenderit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="row bg-lgiht" id="features">
+        <div class="col-lg-6 col-img"></div>
+        <div class="col-lg-6 my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 offset-md-1">
+                        <h6 class="text-primary">WHY CHOOSE US</h6>
+                        <h1>Best solution for your business</h1>
+                        <p>Vel accusantium quis qui dolores exercitationem et quis ipsam sit quos autem qui
+                            blanditiis nisi
+                            ut perspiciatis officia ut repudiandae dolor. Nam harum enim et ipsam quas ad ducimus
+                            dolorem ut
+                            eius quos et ullam aliquid vel nostrum architecto.</p>
+                        <div class="feature d-flex mt-5">
+                            <div class="iconbox me-3">
+                                <i class='bx bxs-message-alt-edit'></i>
+                            </div>
+                            <div>
+                                <h5>All-in-one Theme</h5>
+                                <p>Sed consectetur nobis ex soluta asperiores aut maxime magnam. Ut voluptatem
+                                    maxime
+                                    aut
+                                    odit</p>
+                            </div>
+                        </div>
+                        <div class="feature d-flex">
+                            <div class="iconbox me-3">
+                                <i class='bx bxs-user-circle'></i>
+                            </div>
+                            <div>
+                                <h5>Easily customizable</h5>
+                                <p>Sed consectetur nobis ex soluta asperiores aut maxime magnam. Ut voluptatem
+                                    maxime
+                                    aut
+                                    odit</p>
+                            </div>
+                        </div>
+                        <div class="feature d-flex">
+                            <div class="iconbox me-3">
+                                <i class='bx bxs-download'></i>
+                            </div>
+                            <div>
+                                <h5>Fully Responsive</h5>
+                                <p>Sed consectetur nobis ex soluta asperiores aut maxime magnam. Ut voluptatem
+                                    maxime
+                                    aut
+                                    odit</p>
+                            </div>
+                        </div>
+                        <div class="feature d-flex">
+                            <div class="iconbox me-3">
+                                <i class='bx bxs-time'></i>
+                            </div>
+                            <div>
+                                <h5>Seamless Interaction</h5>
+                                <p>Sed consectetur nobis ex soluta asperiores aut maxime magnam. Ut voluptatem
+                                    maxime
+                                    aut
+                                    odit</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-8 mx-auto text-center">
+                    <h6 class="text-primary">PORTFOLIO</h6>
+                    <h1>Our Latest Projects</h1>
+                    <p>Vel accusantium quis qui dolores exercitationem et quis ipsam sit quos autem qui blanditiis
+                        nisi
+                        ut perspiciatis officia ut repudiandae dolor. Nam harum enim et ipsam quas ad ducimus
+                        dolorem ut
+                        eius quos et ullam aliquid vel nostrum architecto.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row g-3">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="project">
+                        <img src="static/img/cat01.jpg" alt="">
+                        <div class="overlay">
+                            <div>
+                                <h4 class="text-white">Project Title</h4>
+                                <h6 class="text-white">Website Design</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="project">
+                        <img src="static/img/cat02.jpg" alt="">
+                        <div class="overlay">
+                            <div>
+                                <h4 class="text-white">Project Title</h4>
+                                <h6 class="text-white">Website Design</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="project">
+                        <img src="static/img/cat03.jpg" alt="">
+                        <div class="overlay">
+                            <div>
+                                <h4 class="text-white">Project Title</h4>
+                                <h6 class="text-white">Website Design</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="project">
+                        <img src="static/img/cat04.jpg" alt="">
+                        <div class="overlay">
+                            <div>
+                                <h4 class="text-white">Project Title</h4>
+                                <h6 class="text-white">Website Design</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="project">
+                        <img src="static/img/cat05.jpg" alt="">
+                        <div class="overlay">
+                            <div>
+                                <h4 class="text-white">Project Title</h4>
+                                <h6 class="text-white">Website Design</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="project">
+                        <img src="static/img/cat06.jpg" alt="">
+                        <div class="overlay">
+                            <div>
+                                <h4 class="text-white">Project Title</h4>
+                                <h6 class="text-white">Website Design</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-8 mx-auto text-center">
+                    <h6 class="text-primary">PRICING</h6>
+                    <h1>Our Fair & Simple Pricing</h1>
+                    <p>Vel accusantium quis qui dolores exercitationem et quis ipsam sit quos autem qui blanditiis
+                        nisi
+                        ut perspiciatis officia ut repudiandae dolor. Nam harum enim et ipsam quas ad ducimus
+                        dolorem ut
+                        eius quos et ullam aliquid vel nostrum architecto.</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="price card-effect text-center">
+                        <h6>STARTER</h6>
+                        <h1>$99</h1>
+                        <hr>
+                        <div class="display-inline">
+                            <ul class="list-unstyled mb-4">
+                                <li><i class='bx bxs-check-circle'></i>Premium Support</li>
+                                <li><i class='bx bxs-check-circle'></i>30+ Webmaster Tools</li>
+                                <li><i class='bx bxs-x-circle'></i>Drag & Drop Builder</li>
+                                <li><i class='bx bxs-x-circle'></i>eCommerce Store</li>
+                                <li><i class='bx bxs-x-circle'></i>Wordpress Plugins</li>
+                            </ul>
+                            <button class="btn btn-primary">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="price card-effect text-center">
+                        <h6>DEVELOPER</h6>
+                        <h1>$199</h1>
+                        <hr>
+                        <div class="display-inline">
+                            <ul class="list-unstyled mb-4">
+                                <li><i class='bx bxs-check-circle'></i>Premium Support</li>
+                                <li><i class='bx bxs-check-circle'></i>30+ Webmaster Tools</li>
+                                <li><i class='bx bxs-check-circle'></i>Drag & Drop Builder</li>
+                                <li><i class='bx bxs-x-circle'></i>eCommerce Store</li>
+                                <li><i class='bx bxs-x-circle'></i>Wordpress Plugins</li>
+                            </ul>
+                            <button class="btn btn-primary">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="price card-effect text-center">
+                        <h6>BUSINESS</h6>
+                        <h1>$299</h1>
+                        <hr>
+                        <div class="display-inline">
+                            <ul class="list-unstyled mb-4">
+                                <li><i class='bx bxs-check-circle'></i>Premium Support</li>
+                                <li><i class='bx bxs-check-circle'></i>30+ Webmaster Tools</li>
+                                <li><i class='bx bxs-check-circle'></i>Drag & Drop Builder</li>
+                                <li><i class='bx bxs-check-circle'></i>eCommerce Store</li>
+                                <li><i class='bx bxs-x-circle'></i>Wordpress Plugins</li>
+                            </ul>
+                            <button class="btn btn-primary">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="price card-effect text-center">
+                        <h6>ENTERPRISE</h6>
+                        <h1>$399</h1>
+                        <hr>
+                        <div class="display-inline">
+                            <ul class="list-unstyled mb-4">
+                                <li><i class='bx bxs-check-circle'></i>Premium Support</li>
+                                <li><i class='bx bxs-check-circle'></i>30+ Webmaster Tools</li>
+                                <li><i class='bx bxs-check-circle'></i>Drag & Drop Builder</li>
+                                <li><i class='bx bxs-check-circle'></i>eCommerce Store</li>
+                                <li><i class='bx bxs-check-circle'></i>Wordpress Plugins</li>
+                            </ul>
+                            <button class="btn btn-primary">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Team -->
+    <section id="team">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-8 mx-auto text-center">
+                    <h6 class="text-primary">TEAM</h6>
+                    <h1>Meet Our Crew Members</h1>
+                    <p>Vel accusantium quis qui dolores exercitationem et quis ipsam sit quos autem qui blanditiis
+                        nisi
+                        ut perspiciatis officia ut repudiandae dolor. Nam harum enim et ipsam quas ad ducimus
+                        dolorem ut
+                        eius quos et ullam aliquid vel nostrum architecto.</p>
+                </div>
+            </div>
+            <div class="row text-center g-4">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member card-effect">
+                        <img src="static/img/cat07.jpg" alt="">
+                        <h5 class="mb-0 mt-4">Sam Chien</h5>
+                        <p>Backend Developer</p>
+                        <div class="social-icon">
+                            <a href="#"><i class='bx bxl-facebook'></i></a>
+                            <a href="#"><i class='bx bxl-twitter'></i></a>
+                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member card-effect">
+                        <img src="static/img/cat08.jpg" alt="">
+                        <h5 class="mb-0 mt-4">Sam Chien</h5>
+                        <p>Frontend Developer</p>
+                        <div class="social-icon">
+                            <a href="#"><i class='bx bxl-facebook'></i></a>
+                            <a href="#"><i class='bx bxl-twitter'></i></a>
+                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member card-effect">
+                        <img src="static/img/cat09.jpg" alt="">
+                        <h5 class="mb-0 mt-4">Sam Chien</h5>
+                        <p>Database Administrator</p>
+                        <div class="social-icon">
+                            <a href="#"><i class='bx bxl-facebook'></i></a>
+                            <a href="#"><i class='bx bxl-twitter'></i></a>
+                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member card-effect">
+                        <img src="static/img/cat10.jpg" alt="">
+                        <h5 class="mb-0 mt-4">Sam Chien</h5>
+                        <p>Cloud Consultant</p>
+                        <div class="social-icon">
+                            <a href="#"><i class='bx bxl-facebook'></i></a>
+                            <a href="#"><i class='bx bxl-twitter'></i></a>
+                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-8 mx-auto text-center">
+                    <h6 class="text-primary">BLOG</h6>
+                    <h1>Latest News From The Blog</h1>
+                    <p>Vel accusantium quis qui dolores exercitationem et quis ipsam sit quos autem qui blanditiis
+                        nisi
+                        ut perspiciatis officia ut repudiandae dolor. Nam harum enim et ipsam quas ad ducimus
+                        dolorem ut
+                        eius quos et ullam aliquid vel nostrum architecto.</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="blog-post card-effect">
+                        <img src="static/img/cat11.jpg" alt="">
+                        <h5 class="mt-4"><a href="#">Vel accusantium quis qui dolores exercitationem et</a></h5>
+                        <p>el accusantium quis qui dolores exercitationem et quis ipsam sit quos autem qui
+                            blanditiis
+                            nisi ut perspiciatis officia ut repudiandae dolor.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-post card-effect">
+                        <img src="static/img/cat12.jpg" alt="">
+                        <h5 class="mt-4"><a href="#">Vel accusantium quis qui dolores exercitationem et</a></h5>
+                        <p>el accusantium quis qui dolores exercitationem et quis ipsam sit quos autem qui
+                            blanditiis
+                            nisi ut perspiciatis officia ut repudiandae dolor.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-post card-effect">
+                        <img src="static/img/cat13.jpg" alt="">
+                        <h5 class="mt-4"><a href="#">Vel accusantium quis qui dolores exercitationem et</a></h5>
+                        <p>el accusantium quis qui dolores exercitationem et quis ipsam sit quos autem qui
+                            blanditiis
+                            nisi ut perspiciatis officia ut repudiandae dolor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-8 mx-auto text-center">
+                    <h6 class="text-primary">CONTACT</h6>
+                    <h1>Get In Touch</h1>
+                    <p>Vel accusantium quis qui dolores exercitationem et quis ipsam sit quos autem qui blanditiis
+                        nisi
+                        ut perspiciatis officia ut repudiandae dolor. Nam harum enim et ipsam quas ad ducimus
+                        dolorem ut
+                        eius quos et ullam aliquid vel nostrum architecto.</p>
+                </div>
+            </div>
+            <form action="" class="row g-3 justify-content-center">
+                <div class="col-md-5">
+                    <input type="text" class="form-control" placeholder="Full Name">
+                </div>
+                <div class="col-md-5">
+                    <input type="text" class="form-control" placeholder="Email">
+                </div>
+                <div class="col-md-10">
+                    <input type="text" class="form-control" placeholder="Subject">
+                </div>
+                <div class="col-md-10">
+                    <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                </div>
+                <div class="col-md-10 d-grid">
+                    <button class="btn btn-primary">Contact</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-top py-0">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-md-4 text-center">
+                        <img src="static/img/logo-white.png" alt="">
+                    </div>
+                    <div class="col-md-2">
+                        <h5 class="text-white">Brand</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Pricing</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h5 class="text-white">More</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">FAQ's</a></li>
+                            <li><a href="#">Privacy & Policy</a></li>
+                            <li><a href="#">Warrenty</a></li>
+                            <li><a href="#">Shipment</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h5 class="text-white">Pages</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Address: 1234 Ash San Jose, South Dakota 56789</a></li>
+                            <li><a href="#">Email: foobar@example.com</a></li>
+                            <li><a href="#">Phone: (123) 456-7890</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <p><i class="bx bx-copyright"></i> <span class="year"></span> Sam Chien with <i class="bx bxs-heart bx-tada"></i></p>
+                    </div>
+                    <div class="col text-center">
+                        <button class="btn" id="scroll-to-top-btn"><i class='bx bxs-up-arrow' ></i></button>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="social-icon">
+                            <a href="#"><i class='bx bxl-facebook'></i></a>
+                            <a href="#"><i class='bx bxl-twitter'></i></a>
+                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                            <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
