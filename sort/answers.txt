@@ -6,6 +6,6 @@ sort2 uses: Merge Sort
 
 How do you know?: No difference among the cases. Θ(S2) < Θ(S3)
 
-sort3 uses: Slection Sort
+sort3 uses: Selection Sort
 
 How do you know?: No difference among the cases. Θ(S2) < Θ(S3)
